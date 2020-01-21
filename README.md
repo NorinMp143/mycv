@@ -1,3 +1,3 @@
 # My Resume
-Hope it adds value to your life
-Countribute according to code of conduct
+
+Go to this link for view my cv [my cv!](https://NorinMp143.github.io/cv.html)...!!
