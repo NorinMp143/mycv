@@ -1,0 +1,17 @@
+/*loader*/
+
+body {
+  background: #0e0e0e;
+}
+.animload {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.loadmode{
+    text-align:center;
+}
+.loadtext{
+    color:white;
+    font-size:25px;
+    font-weight:700;
+}
