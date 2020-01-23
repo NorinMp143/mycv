@@ -1,0 +1,786 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="lib/style.css">
+    <style type="text/css">
+      /* Add your styles here */
+
+      body{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        font-family: Arial;
+      }
+      h1,h2,h3,h4,h5,ul{
+        margin: 0;
+      }
+      h4{
+        font-size: 21px;
+      }
+      h5{
+        font-size: 17px;
+      }
+      .cv{
+        width: 100%;
+        display: flex;
+      }
+      .cv .fpart{
+        color: white;
+        width:40%;
+        background: #ff8000;
+        padding-bottom: 40px;
+      }
+      .cv .scpart{
+        width: 60%;
+      }
+      .mainD{
+        padding: 20px 0 35px 0;
+        text-align: center;
+      }
+      .mainD h1{
+        font-size: 51px;
+      }
+      .profImg{
+        margin: 0 auto;
+        width: 170px;
+      }
+      .profImg img{
+        border:5px solid white;
+        border-radius: 50%;
+      }
+      .detailer{
+        font-size: 29.5px;
+        text-align: center;
+        margin: 30px 0;
+        position: relative;
+      }
+      .scpart .detailer{
+        color: #ff8000;
+      }
+      .personalD{
+        font-size: 19px;
+        padding: 0 20px 0 30px;
+      }
+      .exSecD,.edSecD{
+        margin-bottom: 20px;
+      }
+      .edSecD h5,.tech{
+        color: grey;
+      }
+      .mjrPrjD, .crtfsD {
+        display: flex;
+        margin: 0 20px 0 30px;
+        flex-wrap: wrap;
+      }
+      .mjrPrjD div,.crtfsD div{
+        width: 50%;
+        margin-bottom: 20px;
+      }
+      .mjrPrjD div.prjD,.crtfsD div.fullD{
+        width: 100%;
+      }
+
+      .skills,.edSec,.exSec,.mInfo{
+        padding: 0 20px 0 30px; 
+      }
+      .skills table{
+        width: 100%;
+      }
+      .skills table tr td:first-child{
+        width: 40%;
+      }
+      .skills table tr td:last-child{
+        width: 60%;
+      }
+      .fullrate{
+        width: 100%;height: 100%;
+        display: block;
+        background: #000;
+      }
+      .halfrate{
+        display: block;
+        width: 50%;height: 100%;
+        background: #000;
+      }
+      .skills table tr td:last-child a{
+         width:15px;height: 10px;
+         border:2px solid #fff;
+         float: left;
+         margin-right: 8px;
+      }
+      .skills table tr td:last-child a:last-child{
+        margin-right: 0;
+      }
+      .skills h4{
+         font-weight: 600;
+        font-size: 18px;
+      }
+      .scpart h5{
+        font-weight: 500;
+      }
+
+.fpart .detailer.ed h3:before,.fpart .detailer.pd h3:before {
+  display: block;
+  content: '';
+  width: ;
+  width: 20%;
+  height: 10px;
+  color: #0;
+  position: absolute;
+  z-index: ;
+  background: #fff;
+  top: ;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fpart .detailer.ed h3:after,.fpart .detailer.pd h3:after{
+  display: block;
+  content: '';
+  width: 20%;
+  height: 10px;
+  position: absolute;
+  z-index: ;
+  background: #fff;
+  top: ;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+.fpart .detailer h3::after {
+  display: block;
+  content: '';
+  width: ;
+  width: 30%;
+  height: 10px;
+  color: #0;
+  position: absolute;
+  z-index: ;
+  background: #fff;
+  top: ;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+
+.fpart .detailer h3:before {
+  display: block;
+  content: '';
+  width: ;
+  width: 30%;
+  height: 10px;
+  color: #0;
+  position: absolute;
+  z-index: ;
+  background: #fff;
+  top: ;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.scpart .detailer h3:before {
+  display: block;
+  content: '';
+  width: ;
+  width: 30%;
+  height: 10px;
+  color: #0;
+  position: absolute;
+  z-index: ;
+  background: #ff8000;
+  top: ;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.scpart .detailer h3::after {
+  display: block;
+  content: '';
+  width: ;
+  width: 30%;
+  height: 10px;
+  color: #0;
+  position: absolute;
+  z-index: ;
+  background: #ff8000;
+  top: ;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="cv">
+      <div class="fpart">
+        <div class="mainD">
+          <div class="profImg">
+            <img src="img/famous143.jpg" width="160px" height="auto">
+          </div>
+          <h1>Madan Lal</h1>
+        </div>
+
+        <div class="detailer pd">
+          <h3>Personal Details</h3>
+        </div>
+
+        <div class="personalD">
+          <table>
+            <tr>
+              <td>Phone</td><td>:</td><td>+9119314520</td>
+            </tr>
+            <tr>
+              <td>Email</td><td>:</td><td>madanparmar637@gmail.com</td>
+            </tr>
+            <tr>
+              <td>Github</td><td>:</td><td>NorinMp143</td>
+            </tr>
+            <tr>
+              <td>Twitter</td><td>:</td><td>@MadanPa74002488</td>
+            </tr>
+            <tr>
+              <td>Address</td><td>:</td><td>Sadri | Pali | Rajasthan | 306702</td>
+            </tr>
+            <tr>
+              <td>Nationality</td><td>:</td><td>Indian</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="detailer ed">
+          <h3>Education Details</h3>
+        </div>
+
+        <div class="edSec">
+          <div class="edSecD">
+            <h4>B.Tech(CSE)</h4>
+            <h5>Lovely Professional University</h5>
+            <h5>CGPA : 7.7/10</h5>
+            <h5>2017-2021</h5>
+          </div>
+          <div class="edSecD">
+            <h4>XII (Senior Secondary), Science</h4>
+            <h5>Adarsh Sin. Sec. School(RBSE)</h5>
+            <h5>Marks : 74.20%</h5>
+            <h5>2015-2016</h5>
+          </div>
+          <div class="edSecD">
+            <h4>X (Secondary)</h4>
+            <h5>Saraswati Vidhya Mandir Sec. School(RBSE)</h5>
+            <h5>Marks : 82.33%</h5>
+            <h5>2013-2014</h5>
+          </div>
+        </div>
+
+        <div class="detailer">
+          <h3>Skills</h3>
+        </div>
+
+        <div class="skills">
+          <table>
+            <tr>
+              <td><h4>HTML</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>CSS</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>JQuery</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>SQL</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>PHP</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="halfrate"></span>
+                </a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>Bootstrap</td>
+                <td>
+                  <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="halfrate"></span>
+                </a>
+                <a></a>
+                <a></a>
+                </td>
+            </tr>
+            <tr>
+              <td><h4>JavaScript</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="halfrate"></span>
+                </a>
+                <a></a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>AngularJs</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="halfrate"></span>
+                </a>
+                <a></a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>C++ Programming</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="halfrate"></span>
+                </a>
+                <a></a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>C Programming</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>Python</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+              </td>
+            </tr>
+            <tr>
+              <td><h4>Java</h4></td>
+              <td>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a>
+                  <span class="fullrate"></span>
+                </a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="scpart">
+        <div class="detailer">
+          <h3>Experience</h3>
+        </div>
+        <div class="exSec">
+          <div class="exSecD">
+            <table>
+              <tr>
+                <td><h4>Co-ordinator <span class="tech">| Mozilla Punjab</span></h4></td>
+                <td><h5><span class="tech">Jan 2019 - Present</span></h5></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <ul>
+                    <li><h5>Mozilla Punjab is a community for technophiles who like technology and for anyone who wants to support Open Source.</h5></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="exSecD">
+            <table>
+              <tr>
+                <td><h4>Website Administrator <span class="tech">| DesireAI</span></h4></td>
+                <td><h5><span class="tech">Jan 2020 - Present</span></h5></td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <ul>
+                    <li><h5>DesireAI is a website that provides tutorials and information about technologies, etc.</h5></li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </div>
+          </div>
+
+          <div class="detailer">
+            <h3>Projects</h3>
+          </div>
+
+          <div class="prj">
+            <div class="mjrPrjD">
+              <div>
+                <h4>MyTrainingProject</h4>
+                <h5>This is an eCommerce website based on HTML, CSS, Bootstrap, SQL, and PHP.</h5>
+              </div>
+              <div>
+                <h4>LiteBooky</h4>
+                <h5>This is just a Hotel booking website that shows only the front end part or design of the website. This project is made by angular js, HTML, CSS, javascript, and jquery.</h5>
+              </div>
+              <div>
+                <h4>Bit-Py</h4>
+                <h5>My Bit-Py project is about various bit-wise operations which can be perform on given numbers.</h5>
+              </div>
+              <div>
+                <h4>TextCap-Py</h4>
+                <h5>My TextCap-Py project is about simple text captcha system interface based python.</h5>
+              </div>
+              <div class="prjD">
+                <h4>Other Minor Projects</h4>
+                <h5>
+                  <ul>
+                    <li>Ideahub</li>
+                    <li>Foody</li>
+                    <li>Smart City Application</li>
+                  </ul>
+                </h5>
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="detailer">
+            <h3>Certifications</h3>
+          </div>
+
+          <div class="crtfs">
+            <div class="crtfsD">
+              <div>
+                <h4>Web Development</h4>
+                <h5>Internshala</h5>
+              </div>
+              <div>
+                <h4>Box Cricket League</h4>
+                <h5>Serve Poor Serve Nation</h5>
+              </div>
+              <div>
+                <h4>HTML5 & CSS3 Fundamentals</h4>
+                <h5>Microsoft Virtual Academy</h5>
+              </div>
+              <div>
+                <h4>BIZ HUB - Techno Marketing</h4>
+                <h5>School of Professional Enhancement</h5>
+              </div>
+              <div class="fullD">
+                <h4>Other certificates</h4>
+                <h5>
+                  <ul>
+                    <li>Complete Front-End Course | Udemy</li>
+                    <li>Complete Full-Stack JavaScript Course | Udemy</li>
+                  </ul>
+                </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="detailer">
+            <h3>Extra Activities</h3>
+          </div>
+
+          <div class="eAct">
+            <h5>
+              <ul>
+                <li>Organized "Autumn Hacks" hackathon at Lovely Professional University sponsored by MLH.</li>
+                <li>Participated in "Competitive Programming Session" organized by Coding Blocks at Lovely Professional University.</li>
+                <li>Participated in "Github Programming Competition" by Github at Lovely Professional University.</li>
+                <li>Participated in "MS Hacks2.0 Hackathon" organized by Microsoft at Lovely Professional University.</li>
+              </ul>
+            </h5>
+          </div>
+
+           <div class="detailer">
+            <h3>More Information</h3>
+          </div>
+
+          <div class="mInfo">
+            <p><span style="font-weight: bold">Profile Link : </span>https://www.linkedin.com/in/madan-lal-b078a7151/</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

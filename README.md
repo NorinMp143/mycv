@@ -1,4 +1,1 @@
-# My Resume
-------------
-Hello guys, I am YourName, from place . i am a YourSpecification.
-Thankyou!
+Go to this link for view my cv [my cv!](https://NorinMp143.github.io/cv.html)...!!
